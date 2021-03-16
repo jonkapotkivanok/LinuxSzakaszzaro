@@ -1,0 +1,1957 @@
+Hello
+Mar 14 20:03:10 jonkalamonka NetworkManager[587]: <info>  [1615748590.5686] device (wlo1): driver supports Access Point (AP) mode
+Mar 14 20:03:10 jonkalamonka NetworkManager[587]: <info>  [1615748590.5691] manager: (wlo1): new 802.11 Wi-Fi device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 14 20:03:10 jonkalamonka NetworkManager[587]: <info>  [1615748590.5699] device (wlo1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <warn>  [1615748591.0852] Error: failed to open /run/network/ifstate
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <info>  [1615748591.0969] modem-manager: ModemManager available
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <info>  [1615748591.0983] supplicant: wpa_supplicant running
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <info>  [1615748591.0983] device (wlo1): supplicant interface state: init -> starting
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <info>  [1615748591.1537] sup-iface[0x5653d4cea910,wlo1]: supports 5 scan SSIDs
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <info>  [1615748591.1542] device (wlo1): supplicant interface state: starting -> ready
+Mar 14 20:03:11 jonkalamonka NetworkManager[587]: <info>  [1615748591.1542] device (wlo1): state change: unavailable -> disconnected (reason 'supplicant-available', sys-iface-state: 'managed')
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4939] policy: auto-activating connection 'Telekom-73f690' (dec5f45f-4e2e-42c2-90b7-a2d063a42228)
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4944] device (wlo1): Activation: starting connection 'Telekom-73f690' (dec5f45f-4e2e-42c2-90b7-a2d063a42228)
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4944] device (wlo1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4947] manager: NetworkManager state is now CONNECTING
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4950] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4953] device (wlo1): Activation: (wifi) access point 'Telekom-73f690' has security, but secrets are required.
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4953] device (wlo1): state change: config -> need-auth (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4954] sup-iface[0x5653d4cea910,wlo1]: wps: type pbc start...
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4974] device (wlo1): state change: need-auth -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4977] device (wlo1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4980] device (wlo1): Activation: (wifi) connection 'Telekom-73f690' has security, and secrets exist.  No new secrets needed.
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4981] Config: added 'ssid' value 'Telekom-73f690'
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4981] Config: added 'scan_ssid' value '1'
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4981] Config: added 'bgscan' value 'simple:30:-70:86400'
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4981] Config: added 'key_mgmt' value 'WPA-PSK WPA-PSK-SHA256 FT-PSK'
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4981] Config: added 'auth_alg' value 'OPEN'
+Mar 14 20:03:13 jonkalamonka NetworkManager[587]: <info>  [1615748593.4981] Config: added 'psk' value '<hidden>'
+Mar 14 20:03:14 jonkalamonka NetworkManager[587]: <info>  [1615748594.0163] device (wlo1): supplicant interface state: ready -> associating
+Mar 14 20:03:14 jonkalamonka NetworkManager[587]: <info>  [1615748594.1400] device (wlo1): supplicant interface state: associating -> associated
+Mar 14 20:03:14 jonkalamonka NetworkManager[587]: <info>  [1615748594.2046] device (wlo1): supplicant interface state: associated -> 4-way handshake
+Mar 14 20:03:15 jonkalamonka NetworkManager[587]: <info>  [1615748595.2155] device (wlo1): supplicant interface state: 4-way handshake -> completed
+Mar 14 20:03:15 jonkalamonka NetworkManager[587]: <info>  [1615748595.2157] device (wlo1): Activation: (wifi) Stage 2 of 5 (Device Configure) successful. Connected to wireless network "Telekom-73f690"
+Mar 14 20:03:15 jonkalamonka NetworkManager[587]: <info>  [1615748595.2162] device (wlo1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:15 jonkalamonka NetworkManager[587]: <info>  [1615748595.2175] dhcp4 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Mar 14 20:03:16 jonkalamonka NetworkManager[587]: <info>  [1615748596.6915] dhcp6 (wlo1): activation: beginning transaction (timeout in 45 seconds)
+Mar 14 20:03:17 jonkalamonka NetworkManager[587]: <info>  [1615748597.8875] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 20:03:17 jonkalamonka NetworkManager[587]: <info>  [1615748597.8876] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 20:03:17 jonkalamonka NetworkManager[587]: <info>  [1615748597.8876] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 20:03:17 jonkalamonka NetworkManager[587]: <info>  [1615748597.8877] dhcp6 (wlo1): state changed unknown -> bound
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2196] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2196] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2196] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2196] dhcp4 (wlo1): option expiry               => '1615752198'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2197] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2198] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2198] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2198] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2198] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2198] dhcp4 (wlo1): state changed unknown -> bound
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2208] device (wlo1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2238] device (wlo1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2239] device (wlo1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2243] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2253] manager: NetworkManager state is now CONNECTED_SITE
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2255] policy: set 'Telekom-73f690' (wlo1) as default for IPv4 routing and DNS
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2259] policy: set 'Telekom-73f690' (wlo1) as default for IPv6 routing and DNS
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2265] device (wlo1): Activation: successful, device activated.
+Mar 14 20:03:18 jonkalamonka NetworkManager[587]: <info>  [1615748598.2271] manager: startup complete
+Mar 14 20:03:19 jonkalamonka NetworkManager[587]: <info>  [1615748599.5215] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 14 20:03:19 jonkalamonka whoopsie[1297]: [20:03:19] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 14 20:03:19 jonkalamonka whoopsie[1297]: [20:03:19] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 14 20:03:19 jonkalamonka whoopsie[1297]: [20:03:19] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Mar 14 20:03:22 jonkalamonka NetworkManager[587]: <info>  [1615748602.9870] agent-manager: agent[2030245e18449e31,:1.80/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 14 20:03:25 jonkalamonka kernel: [   19.444930] audit: type=1107 audit(1615748605.113:52): pid=583 uid=103 auid=4294967295 ses=4294967295 subj=unconfined msg='apparmor="DENIED" operation="dbus_method_call"  bus="system" path="/org/freedesktop/NetworkManager" interface="org.freedesktop.DBus.Properties" member="GetAll" mask="send" name=":1.6" pid=1818 label="snap.snap-store.ubuntu-software" peer_pid=587 peer_label="unconfined"
+Mar 14 20:03:29 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 20:31:24 jonkalamonka NetworkManager[587]: <info>  [1615750284.1610] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 20:31:24 jonkalamonka NetworkManager[587]: <info>  [1615750284.1611] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 20:31:24 jonkalamonka NetworkManager[587]: <info>  [1615750284.1611] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 20:31:24 jonkalamonka NetworkManager[587]: <info>  [1615750284.1611] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 20:31:24 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 20:31:34 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3128] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3129] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3129] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3129] dhcp4 (wlo1): option expiry               => '1615753997'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3129] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3129] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3130] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 20:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3131] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 20:33:17 jonkalamonka NetworkManager[587]: <info>  [1615750397.3132] dhcp4 (wlo1): state changed bound -> extended
+Mar 14 20:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 20:58:34 jonkalamonka NetworkManager[587]: <info>  [1615751914.9235] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 20:58:34 jonkalamonka NetworkManager[587]: <info>  [1615751914.9236] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 20:58:34 jonkalamonka NetworkManager[587]: <info>  [1615751914.9236] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 20:58:34 jonkalamonka NetworkManager[587]: <info>  [1615751914.9237] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 20:58:34 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 20:58:45 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2476] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2477] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2477] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2477] dhcp4 (wlo1): option expiry               => '1615755797'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2477] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2478] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2479] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2480] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2480] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 21:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2480] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2480] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 21:03:17 jonkalamonka NetworkManager[587]: <info>  [1615752197.2480] dhcp4 (wlo1): state changed extended -> extended
+Mar 14 21:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 21:26:55 jonkalamonka NetworkManager[587]: <info>  [1615753615.7231] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 21:26:55 jonkalamonka NetworkManager[587]: <info>  [1615753615.7232] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 21:26:55 jonkalamonka NetworkManager[587]: <info>  [1615753615.7232] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 21:26:55 jonkalamonka NetworkManager[587]: <info>  [1615753615.7232] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 21:26:55 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 21:27:05 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2775] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option expiry               => '1615757597'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2776] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2777] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2778] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2778] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2778] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2778] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 21:33:17 jonkalamonka NetworkManager[587]: <info>  [1615753997.2778] dhcp4 (wlo1): state changed extended -> extended
+Mar 14 21:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 21:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 21:58:14 jonkalamonka NetworkManager[587]: <info>  [1615755494.9182] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 21:58:14 jonkalamonka NetworkManager[587]: <info>  [1615755494.9183] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 21:58:14 jonkalamonka NetworkManager[587]: <info>  [1615755494.9183] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 21:58:14 jonkalamonka NetworkManager[587]: <info>  [1615755494.9183] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 21:58:14 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 21:58:25 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2624] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option expiry               => '1615759397'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2625] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 22:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 22:03:17 jonkalamonka NetworkManager[587]: <info>  [1615755797.2626] dhcp4 (wlo1): state changed extended -> extended
+Mar 14 22:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 22:25:41 jonkalamonka NetworkManager[587]: <info>  [1615757141.2570] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 22:25:41 jonkalamonka NetworkManager[587]: <info>  [1615757141.2571] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 22:25:41 jonkalamonka NetworkManager[587]: <info>  [1615757141.2571] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 22:25:41 jonkalamonka NetworkManager[587]: <info>  [1615757141.2571] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 22:25:41 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 22:25:51 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2828] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2829] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2829] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2829] dhcp4 (wlo1): option expiry               => '1615761197'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2830] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2830] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2830] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2830] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2830] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2830] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2831] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2831] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2831] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2831] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2831] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2831] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2832] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 22:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2833] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 22:33:17 jonkalamonka NetworkManager[587]: <info>  [1615757597.2833] dhcp4 (wlo1): state changed extended -> extended
+Mar 14 22:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 22:53:19 jonkalamonka NetworkManager[587]: <info>  [1615758799.4921] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 22:53:19 jonkalamonka NetworkManager[587]: <info>  [1615758799.4922] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 22:53:19 jonkalamonka NetworkManager[587]: <info>  [1615758799.4922] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 22:53:19 jonkalamonka NetworkManager[587]: <info>  [1615758799.4922] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 22:53:19 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 22:53:29 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2493] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2494] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2495] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2495] dhcp4 (wlo1): option expiry               => '1615762997'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2495] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2495] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2496] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2496] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2496] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2496] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2496] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2497] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2497] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2497] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 23:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2497] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2498] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2498] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2498] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2498] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2499] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2499] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2499] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2499] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2499] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 23:03:17 jonkalamonka NetworkManager[587]: <info>  [1615759397.2500] dhcp4 (wlo1): state changed extended -> extended
+Mar 14 23:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 23:26:13 jonkalamonka NetworkManager[587]: <info>  [1615760773.7583] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 23:26:13 jonkalamonka NetworkManager[587]: <info>  [1615760773.7584] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 23:26:13 jonkalamonka NetworkManager[587]: <info>  [1615760773.7585] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 23:26:13 jonkalamonka NetworkManager[587]: <info>  [1615760773.7585] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 23:26:13 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 23:26:23 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2601] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2602] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2602] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2603] dhcp4 (wlo1): option expiry               => '1615764797'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2603] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2603] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2603] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2603] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2604] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2604] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2604] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 14 23:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2604] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2605] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2605] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2605] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2605] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2606] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2606] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2606] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2606] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2606] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2607] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2607] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2607] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 14 23:33:17 jonkalamonka NetworkManager[587]: <info>  [1615761197.2607] dhcp4 (wlo1): state changed extended -> extended
+Mar 14 23:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 14 23:54:13 jonkalamonka NetworkManager[587]: <info>  [1615762453.7837] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 14 23:54:13 jonkalamonka NetworkManager[587]: <info>  [1615762453.7838] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 14 23:54:13 jonkalamonka NetworkManager[587]: <info>  [1615762453.7838] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 14 23:54:13 jonkalamonka NetworkManager[587]: <info>  [1615762453.7839] dhcp6 (wlo1): state changed bound -> bound
+Mar 14 23:54:13 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 14 23:54:23 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2488] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option expiry               => '1615766597'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2489] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 00:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2490] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 00:03:17 jonkalamonka NetworkManager[587]: <info>  [1615762997.2491] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 00:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 00:21:19 jonkalamonka NetworkManager[587]: <info>  [1615764079.8191] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 00:21:19 jonkalamonka NetworkManager[587]: <info>  [1615764079.8192] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 00:21:19 jonkalamonka NetworkManager[587]: <info>  [1615764079.8192] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 00:21:19 jonkalamonka NetworkManager[587]: <info>  [1615764079.8193] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 00:21:19 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 00:21:29 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2942] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 00:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option expiry               => '1615768397'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2943] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 00:33:17 jonkalamonka NetworkManager[587]: <info>  [1615764797.2944] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 00:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 00:52:44 jonkalamonka NetworkManager[587]: <info>  [1615765964.9924] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 00:52:44 jonkalamonka NetworkManager[587]: <info>  [1615765964.9925] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 00:52:44 jonkalamonka NetworkManager[587]: <info>  [1615765964.9925] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 00:52:44 jonkalamonka NetworkManager[587]: <info>  [1615765964.9925] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 00:52:44 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 00:52:55 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3046] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3047] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3047] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3048] dhcp4 (wlo1): option expiry               => '1615770197'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3048] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3048] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3049] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3049] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3050] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3050] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3050] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3050] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3051] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3051] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3051] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3051] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3052] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3052] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3052] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3053] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3053] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3053] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3053] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3054] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 01:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 01:03:17 jonkalamonka NetworkManager[587]: <info>  [1615766597.3054] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 01:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 01:23:13 jonkalamonka NetworkManager[587]: <info>  [1615767793.7460] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 01:23:13 jonkalamonka NetworkManager[587]: <info>  [1615767793.7461] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 01:23:13 jonkalamonka NetworkManager[587]: <info>  [1615767793.7462] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 01:23:13 jonkalamonka NetworkManager[587]: <info>  [1615767793.7462] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 01:23:13 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 01:23:23 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2598] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2600] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2600] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2600] dhcp4 (wlo1): option expiry               => '1615771997'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2601] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2601] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2601] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2601] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2601] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2602] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2602] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2602] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2602] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2603] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2603] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2603] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2603] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2604] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2604] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2604] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 01:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2604] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2605] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2605] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2605] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 01:33:17 jonkalamonka NetworkManager[587]: <info>  [1615768397.2605] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 01:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 01:55:07 jonkalamonka NetworkManager[587]: <info>  [1615769707.7724] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 01:55:07 jonkalamonka NetworkManager[587]: <info>  [1615769707.7724] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 01:55:07 jonkalamonka NetworkManager[587]: <info>  [1615769707.7725] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 01:55:07 jonkalamonka NetworkManager[587]: <info>  [1615769707.7725] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 01:55:07 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 01:55:17 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2989] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2990] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2991] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2991] dhcp4 (wlo1): option expiry               => '1615773797'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2991] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2991] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2992] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2992] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2992] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2993] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2993] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2993] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2993] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2994] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2994] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2994] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2995] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2995] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 02:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2995] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2995] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2996] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2996] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2996] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2996] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 02:03:17 jonkalamonka NetworkManager[587]: <info>  [1615770197.2997] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 02:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 02:23:01 jonkalamonka NetworkManager[587]: <info>  [1615771381.8270] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 02:23:01 jonkalamonka NetworkManager[587]: <info>  [1615771381.8271] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 02:23:01 jonkalamonka NetworkManager[587]: <info>  [1615771381.8271] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 02:23:01 jonkalamonka NetworkManager[587]: <info>  [1615771381.8272] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 02:23:01 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 02:23:11 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3116] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3117] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3117] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3118] dhcp4 (wlo1): option expiry               => '1615775597'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3118] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3118] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3118] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3119] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3119] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3119] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3120] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3120] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3120] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3120] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3121] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 02:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3121] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3121] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3121] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3122] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3122] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3122] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3123] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3123] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3123] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 02:33:17 jonkalamonka NetworkManager[587]: <info>  [1615771997.3123] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 02:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 02:54:25 jonkalamonka NetworkManager[587]: <info>  [1615773265.8044] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 02:54:25 jonkalamonka NetworkManager[587]: <info>  [1615773265.8045] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 02:54:25 jonkalamonka NetworkManager[587]: <info>  [1615773265.8046] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 02:54:25 jonkalamonka NetworkManager[587]: <info>  [1615773265.8046] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 02:54:25 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 02:54:35 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2983] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2984] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2984] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2984] dhcp4 (wlo1): option expiry               => '1615777397'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2985] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2985] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2985] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2985] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2986] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2986] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2986] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2986] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2987] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 03:03:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2987] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2987] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2987] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2988] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2988] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2988] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2988] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2989] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2989] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2989] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2989] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 03:03:17 jonkalamonka NetworkManager[587]: <info>  [1615773797.2989] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 03:03:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 03:24:01 jonkalamonka NetworkManager[587]: <info>  [1615775041.8068] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 03:24:01 jonkalamonka NetworkManager[587]: <info>  [1615775041.8069] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 03:24:01 jonkalamonka NetworkManager[587]: <info>  [1615775041.8069] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 03:24:01 jonkalamonka NetworkManager[587]: <info>  [1615775041.8070] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 03:24:01 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 03:24:11 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 03:25:29 jonkalamonka NetworkManager[587]: <info>  [1615775129.8398] agent-manager: agent[445e3e1e07977ab7,:1.80/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2962] dhcp4 (wlo1): option dhcp_lease_time      => '3600'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2963] dhcp4 (wlo1): option domain_name          => 'home'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2963] dhcp4 (wlo1): option domain_name_servers  => '84.2.44.1 84.2.46.1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2964] dhcp4 (wlo1): option expiry               => '1615779197'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2964] dhcp4 (wlo1): option ip_address           => '192.168.0.12'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2964] dhcp4 (wlo1): option requested_broadcast_address => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2964] dhcp4 (wlo1): option requested_domain_name => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2965] dhcp4 (wlo1): option requested_domain_name_servers => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2965] dhcp4 (wlo1): option requested_domain_search => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2965] dhcp4 (wlo1): option requested_host_name  => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2965] dhcp4 (wlo1): option requested_interface_mtu => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2965] dhcp4 (wlo1): option requested_ms_classless_static_routes => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2966] dhcp4 (wlo1): option requested_nis_domain => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2966] dhcp4 (wlo1): option requested_nis_servers => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2966] dhcp4 (wlo1): option requested_ntp_servers => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2966] dhcp4 (wlo1): option requested_rfc3442_classless_static_routes => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2966] dhcp4 (wlo1): option requested_root_path  => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2967] dhcp4 (wlo1): option requested_routers    => '1'
+Mar 15 03:33:17 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2967] dhcp4 (wlo1): option requested_static_routes => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2967] dhcp4 (wlo1): option requested_subnet_mask => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2967] dhcp4 (wlo1): option requested_time_offset => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2967] dhcp4 (wlo1): option requested_wpad       => '1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2968] dhcp4 (wlo1): option routers              => '192.168.0.1'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2968] dhcp4 (wlo1): option subnet_mask          => '255.255.255.0'
+Mar 15 03:33:17 jonkalamonka NetworkManager[587]: <info>  [1615775597.2968] dhcp4 (wlo1): state changed extended -> extended
+Mar 15 03:33:27 jonkalamonka systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Mar 15 03:33:47 jonkalamonka NetworkManager[587]: <info>  [1615775627.7053] agent-manager: agent[ec58b0d6af245e66,:1.80/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Mar 15 03:56:54 jonkalamonka NetworkManager[587]: <info>  [1615777014.9721] dhcp6 (wlo1): option dhcp6_domain_search  => 'home'
+Mar 15 03:56:54 jonkalamonka NetworkManager[587]: <info>  [1615777014.9723] dhcp6 (wlo1): option dhcp6_name_servers   => '2001:4c48:1::1 2001:4c48:2::1'
+Mar 15 03:56:54 jonkalamonka NetworkManager[587]: <info>  [1615777014.9723] dhcp6 (wlo1): option ip6_address          => '2001:4c4c:2255:5b00:de1:2790:f91f:95e'
+Mar 15 03:56:54 jonkalamonka NetworkManager[587]: <info>  [1615777014.9723] dhcp6 (wlo1): state changed bound -> bound
+Mar 15 03:56:54 jonkalamonka dbus-daemon[583]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.6' (uid=0 pid=587 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Binary file /var/log/syslog matches
+sudo mokutil --disable-validation
+lspci | grep Network
+sudo apt-get update
+ip a
+cd /
+cd ls
+cd media
+sudo apt update
+sudo apt upgrade
+sudo lshw -C network
+sudo apt update
+sudo apt upgrade
+ls
+cler
+clear
+ls
+cd boot
+clear
+ls
+/ ls
+clear
+/..
+cd /..
+ls
+cd proc/
+clear
+cd/
+clear
+cd /
+ls
+sudo su -
+cd /sbin
+ls
+cd ..
+cd usr
+lsű
+ls
+cd /
+clear
+cd /var
+ls
+cd ..
+cd run/
+ls
+cd /
+cd sys
+ls
+clear
+cd ~
+ls
+ls -a
+l
+-l
+ls -l
+man ls
+clear
+ls -l
+clear
+mkdir FLOW_KAPPA
+cd FLOR_KAPPA/
+ls valami
+clear
+cd FLOW_KAPPA
+mkdir elso masodik harmadik
+ls 
+mkdir -p negyedik/otodik/hatodik
+ls
+ls negyedik
+ls otodik
+clear
+rmdir elso
+rmdir negyedik
+rm -r negyedik
+ls 
+rmdir harmadik
+mv masodik semmi
+ls
+touch gyumolcs
+ls
+echo Csovi
+echo Csovi > Csovitext
+ls
+cat Csovitext
+ls
+ls -l
+cp gyumolcs semmi
+ls semmi
+mv Csovitext semmi/valamitext
+ls
+ls semmi
+cd semmi
+cat valamitext
+vi
+nano
+cd Flow_Kappa/
+ls Flow_Kappa
+cd ..
+cd..
+cd /ű
+cd /
+clear
+cd Flow_Kappa/
+ls Flow_Kappa
+cd home/jonka/Flow_Kappa
+clear
+stat gyumolcs
+cd FLOW_KAPPA
+stat gyumolcs
+-f gyumolcs
+stat -f gyumolcs
+du gyumolcs
+du -b gyumolcs
+find . -name "gyumolcs" -print
+cd ..
+clear
+mkdir tudas
+ls tudas
+cd tudas
+cd ..
+mkdir jarmu
+cd jarmu
+mkdir Citroen Daewoo Fiat Ford Lada Mercedes Nissan Opel Peugeot
+cd /
+cd ~
+cd boot
+cd etc
+cd boot/boot
+cd home
+pwd
+cd /
+cd boot/boot
+pwd
+cd /boot/boot
+ls
+cd etc
+cd /..
+cd etc
+cd ..
+ls
+ls -a
+-l
+ls -l
+cd /root/root
+ls
+ls etc -l
+ls /var/log -l
+ls /var/log -a
+ls /var/log
+cd ~
+mkdir Teszt
+mkdir -p /home/jonka/teszt T1 T2
+cd T1
+cd ..
+ls /home/jonka/Teszt
+ls /home/jonka/teszt
+cd Teszt
+ls
+mkdir T1 T2
+tree
+sudo apt install tree
+tree
+cd /
+ls tree /
+tree /
+clear
+cd ~
+mkdir -p gyakorlat/Proba/test/unix gyakorlat/Proba/Linux gyakorlat/Check/Tmp
+cd ~
+tree
+rmdir -p /gyakorlat
+rmdir gyakorlat
+dmdir -p /gyakorlat/Check/Tmp
+rmdir -p gyakorlat/Check/Tmp
+rm -r gyakorlat
+mkdir gyakorlat/Proba/test/unix 
+mkdir gyakorlat
+mkdir gyakorlat/proba
+mkdir gyakorlat/proba/test
+mkdir gyakorlat/proba/test/unix
+mkdir gyakorlat/proba/Linux
+mkdir gyakorlat/Check/Tmp
+mkdir gyakorlat/check
+mkdir gyakorlat/check/tmp
+cd /etc
+cd /
+tree man
+cd /etc
+tree
+cp /passwd proba
+tree -d
+dc /
+dc ..
+cd ..
+ls
+cp /etc/passw proba
+cp /etc/passd proba
+cp /etc/passwd proba
+cd /etc
+ls
+cp /etc/passw home/jonka/gyakorlat/proba
+cp /etc/passwd home/jonka/gyakorlat/proba
+cd passwd /home/jonka/gyakorlat/proba
+cp passwd /home/jonka/gyakorlat/proba
+cp shadow /home/jonka/gyakorlat/proba/test
+cp shadow ~/gyakorlat/proba/test
+sudo cp shadow ~/gyakorlat/proba/test
+less passwd
+cd /
+cd ~
+mkdir anya
+cd anya
+mkdir edó
+ls anya
+ls edó
+tree anya
+pwd
+ls
+ls -a
+ls -l
+ls -a
+ls -la
+ls /bin
+ls /bin -la
+ls /~ -la
+ls -la
+cal
+date
+clear
+mkdir tudas
+mkdir jarmu
+pwd
+cd /
+cd ~
+cd jarmu
+mkdir Citoren Daewoo Fiat Ford Lada Mercedes Nissan Opel Peugeot
+cd /
+cd ~
+cd root
+cd /etc
+cd ..
+ls
+ls -la /etc /var/log
+cd ~
+mkdir Teszt
+mkdir ~/Teszt/T1/T2
+mkdir -p ~/Teszt/T1 ~/Teszt/T2
+tree ~/Teszt
+mkdir -p ~/Teszt/Unix/Linux/Debian
+tree ~/Teszt
+dc Debian
+dc ~/Teszt/Unix/Linux
+cd Debian
+cd ~/Teszt/Unix/Linux
+mv Debian Deb
+mv Deb T1/
+rmdir -p T1
+rmdir -p Teszt
+rmdir -p ~/Teszt
+rmdir Teszt
+tree
+tree ~/Teszt
+rmdir ~/Tesztú
+rmdir ~Teszt
+rmdir ~/Teszt/ 
+rmdir Teszt/Unix/Linux
+rmdir -p Teszt/Unix/Linux
+rmdir -r /Teszt
+rmdir --help
+rmdir -p Teszt/Unix/Linux
+tree /teszt
+tree /Teszt
+tree ~/Teszt
+rmdir -p Teszt/T1 Teszt/T2
+rmdir -p /home/jonka/Teszt
+cd /Teszt
+cd Teszt
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+LS
+ls
+node hello.js
+sudo apt install curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+sudo apt install curl wget
+sudo apt install nodejs
+node --version
+mkdir kappa
+ls
+cd kappa
+mkdir Day-1-basics
+ls
+cd Day-1-basics
+code .
+node hello.js
+node feladat1.js
+/..
+cd ..
+node feladat1.js
+tree
+cd feladat1.js
+cd Day-1-basics/feladat1.js
+node feladat1.js
+node feladat2.js
+node feladat3.js
+node feladat3.j4
+node feladat4.js
+node feladat5.js
+node feladat6.js
+node feladat7.js
+node feladat8.js
+node feladat6.js
+node feladat8.js
+node feladat7.js
+node feladat8.js
+node feladat9.js
+node feladat4.js
+node feladat1o.js
+node feladat6.js
+node hazi1.js
+cd otthoni
+node hazi1.js
+node feladat1.js
+node hazi1.js
+cd ..
+node feladat1.js
+cd otthoni
+node hazi1.js
+cd feladat1.js
+node hazi1.js
+cd ~/kappa/Day-1-basics/feladat1.js
+node feladat1.js
+cd ..
+cd otthoni
+node hazi2.js
+cd ..
+node feladat2.js
+node feladat3.js
+node hazi3.js
+cd otthoni
+node hazi3.js
+node hazi4.js
+cd ..
+node feladat4.js
+cd otthoni
+node hazi5.js
+cd ..
+node feladat5.js
+cd otthoni
+node hazi6.js
+cd ..
+node feladat6.js
+cd otthoni
+node hazi7.js
+cd ..
+node feladat7.js
+cd ..
+mkdir Day-2-basics
+cd Day-2-basics
+node feladat1.js
+node feladat1switch.js
+node feladat1switch.jsű
+node feladat1switch.js
+node feladat2ciklus1.js
+node feladat3ciklus2dowhile.js
+node feladat4ciklus3for.js
+node feladat5fuggveny.js
+mode feladat6gyakorlo.js
+node feladat6gyakorlo.js
+node feladat7gyakorlo.js
+cd gyakorlat
+cd ..
+node feladat7gyakorlo.js
+cd gyakorlat
+node feladat1.js
+cd ..
+node feladat2ciklus1while.js
+cd gyakorlat
+node feladat2.js
+cd ..
+cd gyakorlat
+node feladat2.js
+node hulyefeladat.js
+node mama.js
+cd DAY2
+node hazi1.js
+ls -l
+ls
+mkdir Linux2
+cd Linux2
+mkdir atiranyitas
+cd atiranyitas
+touch gyumolcsok
+cat
+nano gyumolcsok
+cat < gyumolcsok
+cat > gyumolcsok
+cat < gyumolcsok
+cat << gyumolcsok
+barack
+
+
+cat >> gyumolcsok
+cat << gyumolcsok
+touch error
+clear
+ls
+ls /eznincs
+cat error
+cat gyumolcsok
+ls /eznincs 2< error
+cat error
+nano error
+clear
+ls
+ls /eznincs
+cat error
+ls /eznincs 2> error
+cat error
+nano error
+cat < gyumolcsok < gyumolcsok2
+cat < gyumolcsok > gyumolcsok2
+ls
+cat gyumolcsok2
+cat gyumolcsok
+cat gyumolcsok | sort 
+regex man
+man regex
+grep man
+grep
+grep --help
+clear
+cd ..
+mkdir szurok
+cd szurok
+touch osszeslog
+mkdir szenvedes
+node szenvedes1.js
+cd szenvedes
+node szenvedes1.js
+touch feladat2
+chmod 750 feladat2
+chown root.root feladat2
+chmod 644 feladat2
+chmod 666 feladat2
+chmod 646 feladat2
+mkdir Kozos
+chmod 777 Kozos
+grep -l
+grep --help
+grep jonka
+$ users
+users
+grep jonka /etc/group
+cat < /etc/group > users.txt
+nod users.txt
+nod
+cd /
+ls
+cd ~
+echo $PATH
+ls
+cd prg
+mkdir prg
+export PATH=$PATH:/./prg
+env
+ls.bash_history
+ls .bash_history
+cd ./bash_history
+cat ./bash_history
+touch osszeslog
+history | less
+grep (sh) /etc/passwd
+grep sh /etc/passwd
+grep [^sh] /etc/passwd
+grep ^r /etc/passwd
+grep false$ /etc/passwd
+cat /etc/passwd
+grep ^f /etc/passwd
+prep (tom) /etc/passwd
+grep (tom) /etc/passwd
+grep tom /etc/passwd
+grep ^root /etc/passwd
+grep root /etc/passwd
+grep ^[aeiou] /etc/passwd
+grep [^/bin/bash] /etc/passwd
+grep (^bin/trash) /etc/passwd
+cd ..
+mkdir hetvege1
+cd hetvege1
+ulimit -u
+ps
+nano &
+cat &
+yes > /dev/null &
+ps
+ps a
+ps ax
+ps ax -f
+ps ax f
+pstree
+fuser -v
+clear
+systemctl
+crontab -e
+sudo apt install openssh-server
+sudo adduser
+clear
+mkdir feladat2
+touch ures.txt
+echo Ez nem üres fájl! > nemures.txt
+cd feladat2
+cd ~/feladat2
+mkdir feladat2
+mv ures.txt feladat2
+mv nemures.txt feladat2
+cd feladat2
+mkdir linkek
+ln nemures.txt nemureslink
+mv nemureslink linkek
+cd linkek
+ln -s nemures.txt nemuresszimblink
+cd ..
+stat
+man stat
+stat feladat2
+stat -l
+stat --help
+stat ures.txt
+cd linkek
+stat nemureslink
+stat nemures
+cd ..
+stat nemures.txt
+cd linkek
+ls
+rm nemureslink
+cd ..
+mv ures.txt uresfajl.txt
+rm uresfajlt.txt
+ls
+rm uresfajl.txt
+ls
+cd ..
+ls
+cd Letöltések
+mv grepTest.txt ~/feladat2
+cd ..
+cd feladat2
+grep (sor) grepTest.txt
+man grep
+grep -w (sor) grepTest.txt
+grep -w sor grepTest.txt
+cat grepTest.txt
+grep ....\..\.. grepTest.txt
+cat grepTest.txt
+grep ^[20..] grepTest.txt
+grep Dátumok grepTest.txt
+grep ...././.././.. grepTest.txt
+grep [1-2021]\.[1-12]\.[1-31] grepTest.txt
+grep [1-2]...\.[0-9].\.[0-9]. grepTest.txt
+grep ^(Ez) | sor grepTest.txt
+grep ^Ez | sor grepTest.txt
+grep ^Ez grepTest.txt
+grep ^[1-2] grepTest.txt | grep v "-"
+grep ^[1-2] grepTest.txt | grep -v "-"
+grep ^Ez $sor grepTest.txt
+grep "^([a-d]{4})" grepTest.txt
+grep ^[a-d] grepTest.txt | grep -v "@"
+nano &
+cat &
+top &
+jobs
+ps 
+fg 4
+fg 3
+fg 2
+top &
+fg 2
+top
+jobs
+ps
+kill - 9 16682
+grep sor$ grepTest.txt
+grep sor $ grepTest.txt
+grep sor grepTest.txt
+grep -E '^Ez.*sor' grepTest.txt
+grep '^[a-d]{4}$' grepTest.txt
+pstree root
+systemctl
+clear
+ssh 192.168.5.64
+ssh jonka@192.168.5.64
+scp jonka@192.168.5.64:/home/jonka/jonka.txt /home
+scp jonka@192.168.5.64:/home/jonka/jonka.txt /home/jonka
+ssh jonka@192.168.5.64
+sftp jonka@192.168.5.64
+cd ..
+sftp jonka@192.168.5.64
+ssh jonka@192.168.5.64
+ssh-keygen -t rsa
+ssh copy-id jonka@192.168.5.64
+ssh-copy-id jonka@192.168.5.64
+ssh jonka.192.168.5.64
+ssh jonka@192.168.5.64
+cd Day-3-basics
+ls
+node object.js
+node feladat2.js
+node array.js
+node feladat3tömb.js
+process.stdout.write
+clear
+process.stdout.write
+node f1.js
+node f3.js
+cd Day-3-basics
+cd gyakorlat
+node f3.js
+node f2.js
+node f3.js
+ls
+cd kappa
+ls
+mkdir Linux3
+cd Linux3
+mkdir shellscript
+cd shellscript
+touch hello.sh
+nano hello.sh
+./hello.sh
+chmod 755 hello.sh
+ls -l
+./hello.sh
+nano hello.sh
+hello.sh
+./hello.sh
+nano hello.sh
+./hello.sh
+nano hello.sh
+./hello.sh
+nano hello.sh
+./hello.sh
+nano hello.sh
+./hello.sh
+nano hello.sh
+./hello.sh
+ls
+nano hello.sh
+./hello.sh
+ls
+./hello.sh
+nano hello.sh
+./hello.sh
+ls
+touch parameterek.sh
+nano parameterek.sh
+./parameterek.sh
+parameterek.sh
+./parameterek.sh
+chmod 755 parameterek.sh
+./parameterek.sh
+./parameterek.sh cica kutya papagaly kutyamegint
+clear
+cd ~
+mkdir bin
+touch dir.dat
+cd ..
+mkdir etc
+ls
+cd ..
+ls
+cd ~
+mkdir etc
+cd etc
+touch dir.conf
+cd ..
+cd bin
+touch fb.sh
+cd ..
+cd etc
+nano dir.conf
+cd ..
+cd bin
+vim fb.sh
+sudo apt install vim
+vim fb.sh
+cd ..
+stat kappa
+cd etc
+ls
+cd ..
+cd bin
+ls
+vim fb.sh
+cd etc
+cd ..
+cd etc
+ls
+cd .
+cd ..
+cd bin
+chmod 755 fb.sh
+./fb.sh
+cd etc
+cd ..
+cd etc
+ls
+vim dir.conf
+cd ..
+cd bin
+ls
+./fb.sh
+vim fb.sh
+./fb.sh
+vim fb.sh
+cd ..
+touch kappa.zip
+cd bin
+ls
+./fb.sh
+vim fb.sh
+./fb.sh
+cd ..
+ls
+cd bin
+ls
+vim fb.sh
+./fb.sh
+nano fb.sh
+./fb.sh
+cd ..
+ls
+cd bin
+nano fb.sh
+./fb.sh
+nano fb.sh
+./fb.sh
+nano fb.sh
+vim fb.sh
+./fb.sh
+vim fb.sh
+./fb.sh
+vim fb.sh
+./fb.sh
+vim fb.sh
+./fb.sh
+vim fb.sh
+cd ..
+ls
+rm kappa.zip
+cd bin
+./fb.sh
+vim fb.sh
+./fb.sh
+cd ..
+crontab -e
+clear
+#!bin/bash
+ls
+cd kappa
+ls
+cd Linux3
+ls
+touch feladat1.sh
+vim feladat1.sh
+./feladat1.sh
+chmod 755 feladat1.sh
+./feladat1.sh
+vim feladat1.sh
+./feladat1.sh
+./feladat1.sh valami megvalami jaja
+valami
+./feladat1.sh egy
+./feladat1.sh 1
+./feladat1.sh dejó
+./feladat1.sh alma körte habostorta
+./feladat1.sh alma 
+vim feladat1.sh
+touch feladat2.sh
+vim feladat2.sh
+ls
+cd kappa
+ls
+mkdir Progalapok
+mv -r Day-2-basics Day-1-basics Day-3-basics hetvege1 /~/kappa/Progalapok 
+mv --help
+mv Day-2-basics Day-1-basics Day-3-basics hetvege1 /~/kappa/Progalapok 
+mv Day-2-basics Day-1-basics Day-3-basics hetvege1 ~/kappa/Progalapok 
+cd Progalapok
+ls
+cd ..
+ls
+mv febr17 ./Progalapok
+cd Progalapok
+ls
+cd ..
+ls
+mkdir Linux
+mv Linux 2 Linux 3 ./Linux
+mv Linux2 Linux3 ./Linux
+cd Linux
+ls
+cd ..
+ls
+mkdir febr17
+cd febr17
+toch f1.js
+touch f1.js
+node f1.js
+node f2.js
+node b1.js
+node f3.js
+node f4.js
+cd ..
+cd Day-4-basics
+node f1.js
+node string.js
+node osszegzes.js
+node megszamlalas.js
+node maximum.js
+node eldontes.hjs
+node eldontes.js
+cd ..
+cd Day-4-basics
+cd gyakorlat
+node f1.js
+node f2.js
+node f4.js
+node f3.js
+node f1.js
+node f2.js
+node f1.js
+node f3.js
+node f4.js
+cd Day-4-basics
+cd Progalapok/Day-4-basics
+ls
+cd gyakorlat
+node f1.js
+cd ..
+cd Day-7-basics
+node f1.js
+node f2.js
+node f3.js
+node f4.js
+cd ..
+ls
+cd Letöltések
+ls
+node cars_task.js
+ls
+node cars_task.js
+ls
+mkdir gyakorlasotthon
+cd gyakorlasotthon
+mkdir Alapok
+cd Alapok
+cd ..
+cd gyakorlasotthon
+cd Alapok
+mkdir Ciklusok
+mv Ciklusok CiklusokEsSwitch
+cd ..
+mv Ciklusok CiklusokEsSwitch
+ls
+cd CiklusokEsSwitch
+cd FUggvenyek
+cd Fuggvenyek
+node f1.js
+node f2.js
+node f3.js
+node f4.js
+cd ..
+cd Letöltések
+ls
+node cars_task.js
+cd ..
+cd Kappa
+cd kappa
+ls
+cd Progalapok
+ls
+cd Day-8-basics
+ls
+node f1.js
+Npm init
+npm init
+sudo apt install npm
+npm init
+npm readline-sync
+npm install readline-sync
+cd Progalapok
+cd Day-8-basics
+node f1.js
+node f2.js
+node f3.js
+cd Git
+ls
+cd proba
+ls
+nano README.md
+git status
+git diff
+git push README.md
+clear
+cd ..
+cd Fuggvenyek
+ls
+node f5.js
+node f6.js
+node f7.js
+A
+node f7.js
+cd Progalapok
+ls
+cd Day-8-basics
+ls
+f3.js
+node f3.js
+node f1.js
+node f6.js
+node f5.js
+cd ~
+ls
+cd kappa
+ls
+cd Progalapok
+és
+ls
+mkdir Day-9-basics
+ls
+cd Day-9-basics
+npm init
+cd ..
+mkdir Akasztófa
+cd Akasztófa
+npm init
+npm run test
+node main.js
+npm run test
+npm init
+node main.js
+cd ..
+mkdir Day-10
+cd Day-10
+npm init
+node map.js
+git clone git@github.com:jonkapotkivanok/proba2.git
+cd
+ls
+ls proba2
+cd proba2
+git status
+git add ~/kappa/Progalapok/Day-4-basics/gyakorlat/f1.js
+cd ..
+cd kappa
+cd Progalapok
+cd Day-4-basics
+cd gyakorlat
+git add .
+git add f1.js
+git commit f1.js
+git push f1.js
+git status
+cd ..
+cd proba2
+cd ..
+cd kappa
+cd Progalapok
+cd Day-4-basics
+cd gyakorlat
+git push f1.js
+git push
+git add
+cd ~/proba2
+git add ~/kappa/Progalapok/Day-4-basics/gyakorlat/f1.js
+git tracked
+cd  ~/kappa/Progalapok/Day-4-basics/gyakorlat
+git add .
+push f1.js
+git push f1.js
+git add [f1.js]
+.git
+clear
+cd ~/proba2
+git push
+git push  ~/kappa/Progalapok/Day-4-basics/gyakorlat
+cd  ~/kappa/Progalapok/Day-4-basics/gyakorlat
+git push f1.js
+cd ~/proba2
+ls
+cp  ~/kappa/Progalapok/Day-4-basics/gyakorlat/f1.js
+cp /.  ~/kappa/Progalapok/Day-4-basics/gyakorlat/f1.js
+cp 
+cp ~/kappa/Progalapok/Day-4-basics/gyakorlat/f1.js .
+ls
+add f1.js
+git add f1.js
+git status
+git commit
+git commit 
+git status
+git push
+git branch Brencs
+push --set-upstream origin Brencs
+git push --set-upstream origin Brencs
+git checkout
+git log
+git checkout Brencs
+git status
+git add
+git add f1.js
+git status
+git push 
+git commit
+git push
+cd ..
+git clone git@github.com:flowacademyhu/kappa-pract-feb26.git
+ls
+cd kappa-pract-feb26
+ls
+git branch jonka
+ls
+git status
+git checkout jonka
+nano main.js
+git status
+git add .
+git push
+git push --set-upstream origin jonka
+git checkout
+git push
+git commit
+git status
+git add 
+git add .
+git status
+git push
+git pull origin master
+git pull origin main
+nano main.js
+git commit
+nano main.js
+add main.js
+git add main.js
+git status
+git push
+git commit
+git push
+cd ..
+npm i axel
+git status
+cd Projekt1
+ls
+cd cat-man
+ls
+cd kappa-cat-man
+ls
+git status
+git pull
+git status
+ls
+node menu.js 
+A
+node menu.js 
+node menu2.js 
+cd Projekt1
+ls
+cd cat-man
+ls
+cd kappa-cat-man
+ls
+node menu.js
+node menu2.js
+node menu2.js
+dsrhbdfhbxfdrfdgsdhftrzjk,.íłhhgfsdfygjkl-kjfgAQFRGTHKLÉÁLKJHUGTFDSAQSdefrgthzujkilohugfdsadfrgthjklé-
+node menu2.js 
+node menu.js 
+node menu.js ű
+g
+node menu.js ű
+node menu.js 
+clear
+node menu.js 
+clear
+node menu.js 
+node menuJonka.js
+clear
+node menuJonka.js
+clear
+node menuJonka.js
+clear
+node menuJonka.js
+clear
+node menuJonka.js
+node menu.js
+mkdir gitgame2
+cd gitgame 2
+cd gitgame2
+git clone https://github.com/git-game/git-game-v2.git
+ls
+cd git-game-v2
+ls
+cat README.md
+git ls-files
+git checkout 776
+ls
+cat README.md
+git checkout origin
+git ls
+ls
+cat README.md
+git ls-files
+git lines
+git --help
+print grep ^
+git grep ^
+git diff --shortstat `git hash-object -t tree /dev/null`
+git checkout 6861
+git ls
+ls
+cat README.md
+git log
+git checkout keyboard
+git log
+commit 16a28decee95df6d07def6cfdf32b3eee2c626c9
+git commit 16a28decee95df6d07def6cfdf32b3eee2c626c9
+git checkout commit 16a28decee95df6d07def6cfdf32b3eee2c626c9
+$ echo 'test content' | git hash-object -w --stdin
+$ echo 'test content' | git hash-object -w --stdin 16a28decee95df6d07def6cfdf32b3eee2c626c9
+$ echo 'test content' | git hash-object -w --stdin commit 16a28decee95df6d07def6cfdf32b3eee2c626c9
+git checkout snowden
+ls
+cat README.md
+git shortlog
+git checkout anon
+ls
+cat README
+cat README.md
+git describe
+git checkout return
+ls
+cat README.md
+git checkout pretty
+ls
+cat README.md
+git log
+git log --help
+cd ..
+ls
+cd Projekt1
+ls
+cd cat-man
+ls
+cd kappa-cat-man
+ls
+menu.js
+node menu.js
+cd Projekt1
+ls
+cd cat-man
+ls
+cd kappa-cat-man
+ls
+node menu.js
+cfonts --help
+node logo.js
+node menu.js
+cd Projekt1
+ls
+cd cat-man
+ls
+cd kappa-cat-man
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+ls
+rm package-lock.json 
+npm i
+ls
+git status
+cat package-lock.json 
+git status
+git diff
+git add
+git add .
+git commit
+git push
+node index.js
+git status
+git add
+git add .
+git status
+git commit
+git checkout
+git push
+git pull
+npm i cfonts
+node logo.js
+cfonts --help
+node logo.js
+node menu.js
+netcat localhost 5000
+sudo apt-get install netcat
+nc example.com 80
+ls
+mkdir hhtp
+cd http
+cd hhtp
+cd ..
+mv hhtp http
+cd http
+{ echo -ne "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <hello.txt)\r\n\r\n"; cat hello.txt; } | nc -l 8080
+echo hello.txt
+nano hello.txt
+{ echo -ne "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <hello.txt)\r\n\r\n"; cat hello.txt; } | nc -l 8080
+cd ..
+git facebook.com
+git http://facebook.com
+apt get-install dnsutils
+apt-get install dnsutils
+sudo apt-get install dnsutils
+dig google.com
+dig facebook.com
+clear
+netcat -l 5000
+ipconfig
+ifconfig
+sudo apt install net-tools
+ifconfig
+ifconfig | grep inet
+nc localhost 5000
+gfiodrjgioegoise
+nc 192.168.5.63 5000
+efewfwef
+nc 192.168.5.63 5000
+nc 192.168.5.63 5001
+cd Projekt1
+ls
+cd cat-man
+ls
+cd kappa-cat-man
+ls
+node menu.js
+cd Projekt1
+cd cat-man
+cd kappa-cat-man
+node menu.js
+git pull
+git stash
+git pull
+git status
+node menu.js
+git pull
+cd ..
+mkdir CatMan
+cd CatMan
+git pull git@github.com:flowacademyhu/kappa-cat-man.git
+git clone git@github.com:flowacademyhu/kappa-cat-man.git
+ls
+kappa-cat-man
+cd kappa-cat-man
+ls
+cd Projekt1
+cd cat-man
+cd kappa-cat-man
+node menu.js
+cd CatMan
+cd kappa-cat-man
+node menu.jsw
+node menu.js
+clear
+node menu.js
+cd CatMan
+cd kappa-cat-man
+node menu.js
+cd CatMan
+cd kappa-cat-man
+node menu.js
+clear
+node menu.js
+cd CatMan
+cd kappa-cat-man
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+npm instal mpg123
+npm install mpg123
+sudo apt-get install mpg123
+git status
+git add .
+git commit
+git status
+git pull
+git status
+git pull
+git status
+git add .
+git commit
+git status
+git pull
+git commit
+git add .
+git commit
+cd CatMan
+cd kappa-cat-man
+node menu.js
+clear
+node menu.js
+cd CatMan
+cd kappa-cat-man
+node menu.js
+cd CatMan
+cd kappa-cat-man
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+clear
+node menu.js
+node -w
+node -v
+node menu.js
+git pull
+git stash
+git pull
+git add .
+git commit
+git push
+git add .
+git commit
+git push
+mkdir szakaszzaro
+touch szakaszzaro_feladat
+echo "Hello > szakaszzaro_feladat
+echo "Hello" > szakaszzaro_feladat
+mv szakaszzaro_feladat feladat
+cp feladat feladat2
+rm feladat2
+rmdir -r feladat2
+rmdir --r feladat2
+rmdir --help
+rmdir -p feladat2
+cd feladat2
+ls
+rm feladat | rm grepTest.txt | rm linkek | rm nemures.txt
+ls linkek
+rm nemuresszimblink
+cd linkek
+rm nemuresszimblink
+cd ..
+ls
+rmdir linkek
+ls
+cd ..
+rmdir feladat2
+ls
+cp feladat feladat2
+rm feladat2
+cat feladat
+grep "NetworkManager" /var/log/syslog | cat >> feladat
+cat ~/.bash_history
