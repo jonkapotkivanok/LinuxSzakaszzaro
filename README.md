@@ -1,0 +1,2 @@
+# LinuxSzakaszzaro
+szakaszzáró teszt
